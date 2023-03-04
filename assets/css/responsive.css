@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .email-daba{
+        width: 100%;
+      }
+    
+      #footer .footer-top {
+        padding: 60px 10px 30px 0px;
+      }
+      .contact .info-box {
+        width: 100%;
+
+    }
+  }
+@media (max-width: 410px) {
+    .email-daba{
+        width: 100%;
+      }
+    body{
+      background-color: blue;
+    }
+      #footer .footer-top {
+        padding: 0px 0px;
+      }
+      .contact .info-box {
+        width: 100%;
+
+    }
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
