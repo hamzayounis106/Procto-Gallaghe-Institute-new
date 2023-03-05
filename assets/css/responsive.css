@@ -1,54 +1,71 @@
 @media (max-width: 768px) {
-    .email-daba{
-        width: 100%;
-      }
-    
-      #footer .footer-top {
-        padding: 60px 10px 30px 0px;
-      }
-      .contact .info-box {
-        width: 100%;
-
-    }
-    .res-box{
-     align-items: center;
-     margin-left: 0;
-     margin: 0;
-    }
-    .res-box h4{
-      margin-top: 40px;
-    }
-    
-
-.services .icon-box {
-  padding-left: 0px;
-  margin-top: 4px;
-  padding-right: 22px;
-    text-align: center;
-  margin-left: -58px;
-  width: 120%;
-  margin-bottom: 4px;
-}
+  .email-daba {
+    width: 100%;
   }
-@media (max-width: 410px) {
-    .email-daba{
-        width: 100%;
-      }
-   
-      #footer .footer-top {
-        padding: 0px 0px;
-        padding-top: 12px;
-      }
-      .contact .info-box {
-        width: 100%;
 
-    }
-    .res-box{
-      display: flex;
-      flex-direction: column;
-    }
+  #footer .footer-top {
+    padding: 60px 10px 30px 0px;
   }
-  body{
+
+  .contact .info-box {
+    width: 100%;
+
+  }
+
+  .res-box {
+    align-items: center;
+    margin-left: 0;
     margin: 0;
-    padding: 0;
   }
+
+  .res-box h4 {
+    margin-top: 40px;
+  }
+
+  .services .icon-box i {
+
+    margin-left: 20px;
+  }
+  .services .icon-box h4 a {
+
+    margin-left: -18px;
+}
+  .services .icon-box {
+    padding-left: 0px;
+    margin-top: 4px;
+    padding-right: 0;
+    margin-left: -58px;
+    width: 123%;
+    margin-bottom: 4px;
+  }
+}
+
+#header .logo a {
+ 
+  font-size: 1.3rem;
+}
+@media (max-width: 410px) {
+  .email-daba {
+    width: 100%;
+  }
+
+  #footer .footer-top {
+    padding: 0px 0px;
+    padding-top: 12px;
+  }
+
+  .contact .info-box {
+    width: 100%;
+
+  }
+
+  .res-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
