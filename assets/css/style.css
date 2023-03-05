@@ -312,9 +312,9 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-    height: 30%;
   background-color: #fff;
   overflow-y: auto;
+  height: 40%;
   transition: 0.3s;
 }
 
@@ -422,9 +422,7 @@ h6 {
 }
 
 @keyframes slideshow {
-  /* 25% {
-    background-image: url("../img/bg1.jpg");
-  } */
+ 
   0%, 50%  {
     background-image: url("../img/bg2.jpeg");
   }
@@ -2216,4 +2214,9 @@ section {
   width: 100%;
   justify-content: center;
   align-content: center;
+}
+.daba{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
