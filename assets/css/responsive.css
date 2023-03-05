@@ -10,19 +10,37 @@
         width: 100%;
 
     }
+    .res-box{
+     align-items: center;
+     margin-left: 0;
+    }
+    .res-box h4{
+      margin-top: 40px;
+    }
+    
+
+.services .icon-box {
+    padding-left: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
   }
 @media (max-width: 410px) {
     .email-daba{
         width: 100%;
       }
-  
    
       #footer .footer-top {
         padding: 0px 0px;
+        padding-top: 12px;
       }
       .contact .info-box {
         width: 100%;
 
+    }
+    .res-box{
+      display: flex;
+      flex-direction: column;
     }
   }
   body{
